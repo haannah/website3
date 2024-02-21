@@ -1,0 +1,149 @@
+html{
+  height:100%;
+}
+body{
+  margin:0;
+}
+
+.left-col,.right-col{
+  color: #fff;
+  text-align: center;
+  height:90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.left-col{
+  background-color: #EAC2CB;
+
+
+}
+h1{
+  font-size: 150px;
+  margin: 0;
+}
+.right-col{
+  background-color: #fff;
+}
+
+img {
+  max-width: 100%
+
+}
+
+footer{
+  background-color:  #f4979c;
+  min-height: 0px;
+  background-image:url(../img/socialmedia.svg);
+  background-repeat:no-repeat;
+  background-size: 60%
+  background-position:center;
+  color: #fff;
+  text-align: center;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.social-icon {
+  height: 50px;
+  margin: 10px 20px;
+
+
+}
+
+.social-icons-container{
+  text-align: center;
+  margin: 10px;
+}
+.topnav {
+  background-color: #f4979c;
+  overflow: hidden;
+  text-align: center;
+
+
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 15px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #A99ACB;
+  color: #F57E9A;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: ##A99ACB;
+  color: pink;
+}
+
+h1,h3,h4,h5{
+  font-family: "Dancing Script", cursive;
+ font-optical-sizing: auto;
+ font-weight: normal;
+ font-style: normal;
+}
+.scroll{
+  color: #f4979c;
+  text-align: center;
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+ font-style: normal;
+ font-size: 30px;
+}
+h2{
+  font-size: 100px;
+  font-family: "Prata", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.works h2 {
+  color: #41ccc4;
+
+}
+
+h3{
+  font-size: 50px;
+}
+.works{
+  color: #16736e;
+}
+.contact{
+  color: #f4979c;
+}
+h4{
+  font-size:32px;
+  color: #16736e;
+  background-color: #75e3dd;
+  display:inline-block;
+  margin:0;
+  padding:8px;
+}
+
+a{
+  letter-spacing: 3px;
+  color:#2ce6dc;
+  font-size: 18px;
+  text-decoration: none;
+  font-weight:bold;
+}
+
+p{
+  line-height: 25px;
+}
+.top-container{
+  width: 500px;
+  height: 450px;
+  margin: 0 auto;
+}
